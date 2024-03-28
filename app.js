@@ -3,9 +3,14 @@ require("dotenv").config();
 const express = require("express");
 const expressLayout = require("express-ejs-layouts");
 
+const connectDB = require('./server/config/db');
+
 const app = express();
 
 app.use(express.static("public"));
+
+// Connect to DB
+connectDB();
 
 // Templating Engine
 app.use(expressLayout);

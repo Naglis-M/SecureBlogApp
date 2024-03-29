@@ -100,10 +100,10 @@ router.post('/search', async (req, res) => {
 });
 
 
-
-
-
-
+/**
+ * GET /
+ * About
+*/
 router.get("/about", (req, res) => {
   res.render("about");
 });

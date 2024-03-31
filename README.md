@@ -13,10 +13,10 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Naglis-M/SecureBlogApp.git
 cd SecureBlogApp
-
+```
+```bash
 Install the necessary node packages:
 npm install
-
 ```
 
 

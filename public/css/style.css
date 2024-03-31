@@ -318,7 +318,7 @@ img {
 .admin-post-controls .btn  {
   display: inline-block;
   background-color: var(--black);
-  color: var(--gray-light);
+  color: var(--grey-light);
   border: 0;
   text-decoration: none;
   font-size: .8rem;
